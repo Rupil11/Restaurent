@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Style.css">
+  <title>Responsive Website!</title>
+</head>
+<style>
+  :root {
+  --yellow: #ffc600;
+  --black: #272727;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 900;
+  font-size: 10px;
+  color: var(--black);
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+}
+
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url("./images/topography.svg"),
+    linear-gradient(110deg, #181818, #6d47d9);
+  background-size: 340px, auto;
+  min-height: calc(100vh - 100px);
+  margin: 50px;
+  background-attachment: fixed;
+  letter-spacing: -1px;
+}
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  margin: auto;
+  color: rgb(233, 233, 233);
+}
+
+footer h3 {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0 0 5px 0;
+}
+.item {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid rgba(0, 0, 0, 0.03);
+  border-radius: 3px;
+  font-size: 35px;
+  background-color: var(--yellow);
+}
+
+.item p {
+  margin: 0 0 5px 0;
+}
+
+</style>
+<body>
+  <h8 style="font-size: 200px;color: #ffc600; padding-left: 15rem;">Weyu-101</h8>
+  <div class="wrapper">
+      <nav class="menu">
+          <ul id="menu-list">
+            <li>
+              <a href="">Bhajiya</a>
+            </li>
+            <li>
+              <a href="">Utsav kachori</a>
+            </li>
+            <li>
+              <a href="">bakesamosa</a>
+            </li>
+            <li>
+              <a href="">Bhel</a>
+            </li>
+            <li>
+              <a href="">Chai</a>
+            </li>
+          </ul>
+        </nav>
+    <div class="top">
+      <header class="hero">
+        <h1>Indore Bhajiya</h1>
+        <p>with green chutny, yummy!</p>
+      </header>
+      <div class="cta cta1">
+        <p class="price">30Rs</p>
+        <p> 100 gm</p>
+      </div>
+      <div class="cta cta2">
+        <p class="price">50Rs</p>
+        <p>200 gm</p>
+      </div>
+
+    </div>
+
+    <section class="features">
+      <div class="feature">
+        <span class="icon">🍟</span>
+        <h3>Bhajiya</h3>
+        <p>Satyasai chaurah ke famous bhajiye with green chutny</p>
+      </div>
+      <div class="feature">
+        <span class="icon">☕</span>
+        <h3>Chai</h3>
+        <p>Weyu Flat 101 ki rupil k haat ki chai</p>
+      </div>
+      <div class="feature">
+        <span class="icon">🍷</span>
+        <h3>Wine</h3>
+        <p>2400/- tk ki daru</p>
+      </div>
+      <div class="feature">
+        <span class="icon">🎵</span>
+        <h3>Music</h3>
+        <p>Music with DJ harsh detwal</p>
+      </div>
+    </section>
+
+    <section class="about">
+      <img src="file:///C:/Users/HP/Downloads/Snapchat-1824835754.jpg" alt="Yummy Taco" class="about__mockup">
+      <div class="about__details" style="font-size:xx-large; padding-left: 100px;">
+        <h2>Special Chai</h2>
+        <p>Weyu ,Flat 101</p>
+        <p>Special masala chai</p>
+        <button>Learn More →</button>
+      </div>
+    </section>
+
+
+    <section class="gallery">
+      <footer>
+      <h2>Get in Touch</h2>
+        <p>Email:
+            <strong>rupil11.rn@gmail.com</strong>
+        </p>
+        <p>Phone:
+            <strong>(+91)9516042112</strong>
+        </p>
+      </footer>
+    </section>
+  </div>
+</body>
+
+</html>
